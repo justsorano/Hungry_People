@@ -279,6 +279,21 @@ body {
   border-radius: 5px;
 }
 
+.fa-envelope {
+  color: #ffd600;
+  margin: 0 15px 0 15px;
+}
+
+.fa-phone {
+  color: #ffd600;
+  margin: 0 40px 0 10px;
+}
+
+.fa-map-marker {
+  color: #ffd600;
+  margin: 0 10px 0 0;
+}
+
 .header {
   background: url(../img/header/bg.jpg);
   color: #fff;
@@ -807,6 +822,220 @@ body {
   font-weight: 700;
   opacity: 1;
   color: rgba(255,255,255,.7);
+}
+
+.gallery__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin: 0 0 100px 0;
+}
+
+.gallery__item {
+  flex: 1 1 auto;
+}
+
+.contacts {
+  margin: 0 0 100px 0;
+}
+
+.contacts__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts__title {
+  margin: 0 0 20px 0;
+}
+
+.contacts__line {
+  margin: 0 auto 30px auto;
+}
+
+.contacts__subtitle {
+  margin: 0 0 50px 0;
+  max-width: 565px;
+}
+
+.form-c {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-c textarea {
+  font-family: "OpenSans";
+  background: #e5e5e5;
+  border: none;
+  width: 100%;
+  height: 120px;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+}
+
+.form-c textarea::-moz-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c textarea:-ms-input-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c textarea::placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__row {
+  max-width: 100%;
+  display: flex;
+}
+
+.form-c__name {
+  flex: 1 1 33.33%;
+  height: 60px;
+  background: #e5e5e5;
+  border: none;
+  margin: 0 10px 0 0;
+}
+
+.form-c__name::-moz-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__name:-ms-input-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__name::placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__email {
+  flex: 1 1 33.33%;
+  height: 60px;
+  background: #e5e5e5;
+  border: none;
+  margin: 0 10px 0 0;
+}
+
+.form-c__email::-moz-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__email:-ms-input-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__email::placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__phone {
+  flex: 1 1 33.33%;
+  height: 60px;
+  background: #e5e5e5;
+  border: none;
+}
+
+.form-c__phone::-moz-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__phone:-ms-input-placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__phone::placeholder {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: rgba(51,51,51,.5);
+}
+
+.form-c__contacts {
+  margin: 10px 0 0 0;
+  flex: 1 1 50%;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 700;
+  color: rgba(0,0,0,.5);
+}
+
+.form-c__btn {
+  margin: 10px 0 0 0;
+  flex: 1 1 50%;
+  background: #ffd600;
+  text-transform: uppercase;
+  height: 60px;
+}
+
+.map__content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer {
+  background: rgba(0,0,0,.9);
+  max-width: 100%;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.footer__body {
+  color: #fff;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 400;
+  padding: 45px 0;
 }
 
 @font-face {
